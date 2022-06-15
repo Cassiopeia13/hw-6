@@ -444,7 +444,7 @@ div{
     background-color:#FFFFFF ;
     opacity: 1;
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1), opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    
+    padding: 40px 40px 0px 40px;
     
 }
 
@@ -470,9 +470,7 @@ div{
     fill: #2196F3;
 }
 
-.modal-form {
-    padding: 40px 40px 0px 40px;
-}
+
 
 .modal-b {
 
@@ -563,7 +561,7 @@ div{
     border-radius: 4px;
     height: 120px;
     transition: outline 250ms cubic-bezier(0.4, 0, 0.2, 1);
-
+    resize: none;
 }
 
 .form-groop textarea:focus{
@@ -636,6 +634,7 @@ div{
     margin-bottom: 30px;
     display: flex;
     align-items: center;
+    justify-content: center;
 
 }
 
@@ -1249,6 +1248,7 @@ div{
 }
 
 
+
 .form-title{
 
     font-family: 'Roboto';
@@ -1310,7 +1310,7 @@ div{
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
     border-radius: 4px;
     background-color: #2F303A;
-    
+    color: #FFFFFF;
     padding-top: 15px;
     padding-bottom: 15px;
     padding-left: 16px;
