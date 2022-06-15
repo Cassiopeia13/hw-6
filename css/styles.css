@@ -1241,9 +1241,9 @@ div{
 
 .form-input{
     display: inline-block;
-    width: 570px;
+    width: 574px;
     height: 86px;
-    margin-left: 93px;
+    margin-left: auto;
     
     
 }
@@ -1314,7 +1314,7 @@ div{
     padding-top: 15px;
     padding-bottom: 15px;
     padding-left: 16px;
-    margin-right: 7px;
+    margin-right: 12px;
 }
 
 .icon-send{
